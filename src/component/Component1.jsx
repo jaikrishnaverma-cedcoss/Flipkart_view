@@ -3,7 +3,7 @@ class Component1 extends Component {
     state = {  } 
     render() { 
         return (
-            <><div style={{backgroundColor:"#2874f0",display:"flex",justifyContent:"center",width:"100%"}}>   
+            <><div style={{position:"fixed",zIndex:"4",backgroundColor:"#2874f0",display:"flex",justifyContent:"center",width:"100%"}}>   
                         <div className="row" style={{backgroundColor:"#2874f0",display:"flex",alignItems:"center",justifyContent:"space-between",width:"70%",padding:"10px",height:"36px"}}>
                 <div className="nav logo" style={{width:"80px"}}>
                <img src="flipkart.png" alt=""  style={{width:"80px"}}/>

@@ -5,7 +5,7 @@ class Component2 extends Component {
         return (
             <>
             <div className='rowbox'>
-            <div className="row" style={{width:"95%",justifyContent:"space-around",margin:"20px 0px"}}>
+            <div className="row" style={{paddingTop:"40px",width:"95%",justifyContent:"space-around",margin:"20px 0px"}}>
                 <div className="prod">
                     <img src="prd1.webp" alt="" />
                     <h5 style={{textAlign:"center"}}>Top Offer</h5>

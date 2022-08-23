@@ -6,7 +6,7 @@ class Component4 extends Component {
     render() {
         return (
             <>
-                <div style={{ backgroundColor:" rgb(234, 234, 234)",width: "98%", padding: "1%",display:"flex",justifyContent:'space-between'}}>
+                <div style={{backgroundColor:" rgb(234, 234, 234)",width: "98%", padding: "1%",paddingTop:"0%",display:"flex",justifyContent:'space-between'}}>
                  
                     <div className="rowbox" style={{ backgroundColor:"white",width: "80%", padding: "1%",display:"flex",flexDirection:"column", justifyContent:"space-between",boxShadow: "rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px" }}>
                         <div className="row" style={{ width: "100%", display: "flex", justifyContent: "space-between",borderBottom:"1px solid #bcbcbc",padding:"10px" }}><div className='headhead'><h2>Beauty, Food, Toys & More</h2><p className="pp1">Beauty, Food, Toys & More</p></div><button className='vall'>VIEW ALL</button></div>
