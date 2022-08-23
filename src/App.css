@@ -7,15 +7,26 @@ padding: 0px;
   text-align: center;
   width: 100%;
 }
-.App-header{
+.rowbox{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   
 }
 input:focus{
  border: none;
 }
+.row{
+  display: flex;
+  align-items: center;
+}
+.prod img{
+  width: 65px;
+}
+
+
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

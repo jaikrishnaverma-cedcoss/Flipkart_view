@@ -12,10 +12,10 @@ class Component1 extends Component {
                 <div className="nav inputDiv"  style={{height:"90%",width:"45%",background:"white",display:"flex",alignItems:"center",borderRadius:"2px"}}>
                     <input type="text" style={{height:"90%",width:"93%",border:"none", outline: "none",padding: "0px 20px",fontSize: "14px"}}/><i style={{fontSize: "20px",color:" #2874f0",width:"5%",padding:"10px"}} class="fa fa-search" aria-hidden="true"></i>
                 </div>
-                <button style={{width: "12%",height:" 80% ",border: "none",fontSize:" 18px",fontWeight: "0",color:"#2874f0",backgroundColor:"white",borderRadius:"2px"}}>Login</button>
+                <button style={{width: "12%",height:" 80% ",border: "none",fontSize:" 16px",fontWeight: "0",color:"#2874f0",backgroundColor:"white",borderRadius:"2px"}}>Login</button>
                 <p style={{color:"white",lineHeight: "20px",fontSize: "16px",letterSpacing: ".1px",fontWeight:" 500"}}>Become a Seller</p>
                 <p style={{color:"white",lineHeight: "20px",fontSize: "16px",letterSpacing: ".1px",fontWeight:" 500"}}>More <i class="fa fa-angle-down" aria-hidden="true"></i></p>
-                <button style={{backgroundColor:"transparent",border:"none",color:"white",fontSize:"18px",fontWeight:"500"}}><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</button>
+                <button style={{backgroundColor:"transparent",border:"none",color:"white",fontSize:"16px",fontWeight:"500"}}><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</button>
             </div>
             </div>
  
