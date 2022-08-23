@@ -38,12 +38,12 @@ class Component3 extends Component {
       }
     render() { 
         return ( 
-        <div className="rowbox">
+        <div className="rowbox" style={{padding:" 10px 0px",backgroundColor:"#eaeaea"}}>
         <div className="rowbox crousal">
             <div className='absolute'><button onClick={this.prevSlide}><i class="fa fa-angle-left" aria-hidden="true"></i></button><button onClick={this.nextSlide}><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
       {/* <Slider index={this.state.currentSlide} /> */}
       <div className='crbox'>
-       <img src={`banner${this.state.currentSlide}.webp`}  alt="This is a carousel slide" />
+       <img src={`banner${this.state.currentSlide}.webp`} style={{width:"98%"}}  alt="This is a carousel slide" />
        </div>
         </div>
     </div> );
